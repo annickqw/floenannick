@@ -50,10 +50,10 @@ let soundCount = 0;
 
 function preload() {
     font = loadFont("Dazzed-Medium.otf");
-    sound1 = loadSound("tik_4.WAV");
+    sound1 = loadSound("tik_4.wav");
     sound2 = loadSound("tikkkk.WAV");
     sound3 = loadSound("groei_2.WAV");
-    sound4 = loadSound("TIK_5.WAV");
+    sound4 = loadSound("TIK_5.wav");
     sound5 = loadSound("toon.WAV");
     sounds = [sound1, sound2, sound3, sound4];
     draaisound = loadSound("draai_2.WAV");
@@ -303,5 +303,6 @@ class Rectangle {
 
 
     }
+
 
 }
